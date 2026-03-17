@@ -1,0 +1,24 @@
+.titulos-principal {
+        color: rgb(214, 128, 15);
+        font-size: 30px;
+        font-family: Fjalla One;
+        line-height: 1.5;
+      }
+      .meus-nome {
+        color: rgb(240, 90, 4);
+        font-size: 30px;
+        font-family:  Lobster;
+        line-height: 0.5;
+      }
+      .minha-profissao {
+        color: rgb(214, 114, 57);
+        font-size: 25px;
+        font-family: Fjalla One;
+        line-height: 0.5;
+      }
+      .foto-perfil {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 8px solid rgb(214, 128, 15);
+      }

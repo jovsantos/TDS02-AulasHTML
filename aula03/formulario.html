@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário em HTML</title>
+  </head>
+  <body>
+    <form
+      novalidate
+      name="cadastroForm"
+      action="/processarDados"
+      autocomplete="on"
+      method="post"
+    >
+      <label for="nome">Nome:</label>
+      <input
+        required
+        type="text"
+        name="nome"
+        id=""
+        placeholder="Digite seu nome"
+      />
+      <br />
+
+      <label for="email">Email:</label>
+      <input
+        required
+        type="email"
+        name="email"
+        id=""
+        placeholder="Ex.: seu.email@dominio.com"
+      />
+      <br />
+
+      <label for="telefone">Telefone:</label>
+      <input
+        type="tel"
+        name="telefone"
+        id=""
+        inputmode="numeric"
+        placeholder="Ex.: (11) 99999-9999"
+      />
+      <br />
+
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        name="senha"
+        id=""
+        placeholder="Digite sua senha"
+        maxlength="3"
+      />
+      <br />
+
+      <label for="idade">Idade:</label>
+      <input type="number" name="idade" id="" placeholder="Ex.: 25" />
+      <br />
+
+      <label for="dataNascimento">Data de Nascimento:</label>
+      <input type="date" name="dataNascimento" id="" />
+      <br />
+
+      <label for="horario">Horário:</label>
+      <input type="time" name="horario" id="horario" />
+      <br />
+
+      <label for="cor">Cor Favorita:</label>
+      <input type="color" name="cor" id="cor" />
+      <br />
+
+      <label for="range">Range:</label>
+      <input
+        oninput="document.getElementById('rangeValue').textContent = this.value"
+        type="range"
+        min="0"
+        max="100"
+        name="range"
+        id="range"
+      />
+      <span id="rangeValue">50</span>
+      <br />
+
+      <label for="arquivo">Arquivo:</label>
+      <input type="file" accept="image/" name="file" id="file" />
+      <br />
+
+      <input type="checkbox" name="aceito" id="aceito" />
+      <label for="aceito">Aceito os termos de uso</label>
+      <br />
+
+      <input type="radio" name="genero" id="masculino" value="masculino" />
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="feminino" value="feminino" />
+      <label for="feminino">Feminino</label>
+      <br />
+
+      <input type="reset" value="Limpar" />
+
+      <input
+        type="button"
+        value="Clique Aqui"
+        onclick="alert('Botão clicado!')"
+      />
+      <br /><br />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea
+        name="mensagem"
+        id="mensagem"
+        rows="5"
+        placeholder="Digite sua mensagem"
+      ></textarea>
+
+      <br /><br />
+
+      <label for="cidade">Cidade:</label>
+      <select name="cidade" id="cidade">
+        <option value="">Selecione</option>
+        <option value="saoPaulo">São Paulo</option>
+        <option value="rioDeJaneiro">Rio de Janeiro</option>
+        <option value="beloHorizonte">Belo Horizonte</option>
+        <option value="osasco">Osasco</option>
+      </select>
+      <br />
+
+      <label for="linguagens">Linguagens de Programação:</label>
+      <select name="linguagens" id="linguagens" multiple size="2">
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="csharp">C#</option>
+        <option value="ruby">Ruby</option>
+        <option value="php">PHP</option>
+      </select>
+      <br /><br />
+
+      <input list="navegadores" name="navegador" />
+      <datalist id="navegadores">
+        <option value="Google Chrome"></option>
+        <option value="Mozilla Firefox"></option>
+        <option value="Microsoft Edge"></option>
+        <option value="Safari"></option>
+        <option value="Opera"></option>
+      </datalist>
+
+      <input type="submit" value="Enviar" />
+      <br />
+    </form>
+  </body>
+</html>
