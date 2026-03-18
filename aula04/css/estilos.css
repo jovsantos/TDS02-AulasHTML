@@ -1,10 +1,19 @@
-.titulos-principal {
+      
+      .body{
+        background: #f3e4bc;
+      }
+     .titulos-principal {
         color: rgb(214, 128, 15);
         font-size: 30px;
         font-family: Fjalla One;
         line-height: 1.5;
       }
-      .meus-nome {
+      .texto-descricao {
+        color:#000000;
+        font-size: 10 px;
+        font-family: "Playfair Display";
+       }
+      .meu-nome {
         color: rgb(240, 90, 4);
         font-size: 30px;
         font-family:  Lobster;
@@ -22,3 +31,6 @@
         border-radius: 50%;
         border: 8px solid rgb(214, 128, 15);
       }
+
+      
+      
