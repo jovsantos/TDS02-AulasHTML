@@ -1,0 +1,10 @@
+.body{
+     background: radial-gradient(circle, rgb(203, 180, 240), rgb(117, 98, 228));
+}
+.circulo-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:8px solid rgb(23, 60, 224);;
+
+}
