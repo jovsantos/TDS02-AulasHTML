@@ -1,10 +1,114 @@
-.body{
-     background: radial-gradient(circle, rgb(203, 180, 240), rgb(117, 98, 228));
+* {
+  margin: 5;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-.circulo-perfil{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border:8px solid rgb(23, 60, 224);;
+.card {
+  background: #dcdcdc;
+  width: 400px;
+  padding: 40px 25px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 20px 40px rgb(252, 196, 14);
+}
 
+.body {
+     background: radial-gradient(circle, rgb(219, 131, 14), rgb(216, 90, 6));
+     height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto -25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border:8px solid rgb(236, 156, 7);
+  align-items: center;
+  box-shadow: 0 0 10px 5px rgb(226, 139, 8);
+}
+.meu-nome {
+font-family: "Story Script", cursive;
+font-size: 40px;
+color: rgb(0, 0, 0);
+padding: -5px;
+margin-bottom: 15px;
+margin-right: 20px;
+}
+.meu-sobrenome{
+font-family: "Story Script", cursive;
+font-size: 35px;
+color: rgb(0, 0, 0);
+padding: 5px;
+margin-top: -40px;
+margin-left: 25px;
+}
+.minha-profissao {
+    font-family: "Story Script", cursive;
+    color: rgb(228, 133, 9);
+    font-size: 30px;
+    margin-top: -15px;
+}
+h3 {
+  margin-bottom: 5px;
+  font-size: 30px ;
+  font-family: "Story Script", cursive;
+}
+h2 {
+  margin-bottom: 5px;
+  color: #696464;
+}
+h4 {
+  color: #5b6ee1;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+p {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.skills > span {
+  padding: 6px 12px;
+  border-radius: 20px;
+
+  background: #e6cba8;
+  color: #110e02;
+  font-size: 12px;
+ 
+  border: 1px solid #e9820c;
+}
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+ 
+  background: linear-gradient(135deg, #ee8a18, #ec8e13);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ 
+  cursor: pointer;
+ font-size: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: 0.3s;
+  font-family: "Story Script";
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.0,3);
+  
 }
