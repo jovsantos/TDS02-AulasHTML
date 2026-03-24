@@ -1,0 +1,23 @@
+
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: red;
+    height: 80px;
+    width: 100%;
+}
+.container img {
+    max-width: 50%;
+}
+@media (min-width:375px){
+    .container{
+        background-color: blue;
+    }
+    .container img{
+        max-width: 50%;
+    }
+}
