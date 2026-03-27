@@ -28,6 +28,7 @@ img{
     text-align: center;
     border-radius: 60%;
     padding: 90px 50px;
+    
 }
 .card ul{
     display: flex;
@@ -35,6 +36,7 @@ img{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
 }
 .card li{
     list-style: none;

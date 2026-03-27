@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+header{
+    background-color: #15366b;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 350px;
+    height: auto;
+    
+}
+.logosite {
+    display: flex;
+    width: 200px;
+    padding: 10px 10px;
+}
+.menu {
+    display: flex;
+    padding: 0px 0px 1px 130px ;
+    margin: 1px ; 
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+hr {
+    display: flex;
+    margin: 9px;
+}
+.botao {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-cadastro  {
+    margin: 0px 5px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #db790a, #e48a14);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15;
+    transition: 0.3s;
+    font-family: "Arial";
+}
+
+.btn-transparente{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #536da5;
+    padding: 20px 20px;
+    gap: 20px;
+}
+.conteudo h2 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+}
+.conteudo p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+}
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cursos {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10%;
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 30px rgb(0, 0, 0, 0.1);
+}
+.cursos h2{
+    padding: 10px 10px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
