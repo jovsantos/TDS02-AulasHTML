@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+
+        // Utilização do console.log();
+        /**
+         var x = "Valor da Variável";
+
+        console.log('Olá, João');
+        console.log(200);
+        console.log(50 + 40);
+        console.log(x);
+        console.log('Olá', x);
+        */ 
+
+        /** Variaveis e Tipos de Dados em JavaScript
+        let idade = 21;
+        const nome = 'João';
+        */
+
+        /** Variaveis e Tipos de Dados em JavaScript
+         * 
+        let texto = "Isso é um novo texto"
+        let numeroInteiro = 42
+        let numeroDecimal = 3.14
+        let estaChovendo = true // booleano true/false
+        console.log(typeof numeroDecimal)
+        
+        console.log("Nome: " = nome, idade);
+        console.log(`O meu nome é ${nome}. E minha idade é ${idade} `);
+        */
+    
+        // Funções (com parametros e retorno)
+
+         function saudacao() { // função sem parametros
+            console.log("Olá, Mundo");
+            console.log("Hoje é dia 27");
+            console.log("Ontem foi dia 26");
+        }
+        
+        function saudacao2(nome, dia) { // função com parametros
+            console.log("Olá, " + nome);
+            console.log("Hoje é dia " + dia);
+            dia--;
+            
+            if(dia == 0){
+                dia = 31;
+            }
+            console.log("Ontem foi dia" + dia);
+        }
+
+        saudacao2("João")
+
+        function soma(a, b) { //função com retorno
+            return a + b;
+        }
+        
+        console.log(soma(10, 8));
+         
+    </script> 
+
+</body>
+</html>
