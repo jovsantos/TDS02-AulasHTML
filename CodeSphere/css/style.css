@@ -26,23 +26,25 @@ header{
 }
 .menu {
     display: flex;
-    padding: 0px 0px 1px 130px ;
+    padding: 0px 0px 1px 120px ;
     margin: 1px ; 
     justify-content: flex-end;
     align-items: center;
     height: 40px;
 }
 hr {
-    display: flex;
-    margin: 9px;
+    text-align: center;
+    width: 340px;
+    margin: 8px 18px;
 }
 .botao {
     display: flex;
+    padding: 0px 5px 0px 0px;
     justify-content: flex-end;
 }
 .btn-cadastro  {
-    margin: 0px 5px;
-    padding: 7px 15px;
+    margin: 5px 10px 5px 15px;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     background: linear-gradient(135deg, #db790a, #e48a14);
@@ -52,11 +54,17 @@ hr {
     transition: 0.3s;
     font-family: "Arial";
 }
+.btn-laranja {
+    padding: 10px 10px;
+    font-size: 15px;
+}
 
 .btn-transparente{
     background: transparent;
     color: white;
     border: 2px solid white;
+    font-size: 15px;
+    padding: 8px 8px;
 }
 .conteudo {
     display: flex;
@@ -183,12 +191,52 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .marca h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
+    margin: 20px 20px 10px 20px;
 }
-
+.duvidas1 {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+margin: 10px 10px;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+gap: 20px;
+}
+.duvidas2 {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+margin: 10px 10px;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+gap: 20px;
+}
+.aplicativos img {
+    background-color: #15366b;
+   padding: 10px 10px;
+}
+.adicionais hr {
+    margin: 3px;
+    width: 340px;
+     border-width: 0.1px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:#15366b;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 10px;
+}
 
 
 
