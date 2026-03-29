@@ -83,18 +83,112 @@ hr {
 }
 .cursos {
     display: flex;
-    border: 1px solid rgb(255, 0, 0);
-    border-radius: 10%;
-    margin: 25px 20px;
-    justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 15px 30px rgb(0, 0, 0, 0.1);
+    flex-direction: column;
+    gap: 1px;
 }
-.cursos h2{
+.informacaopq {
     display: flex;
-    padding: 10px 10px;
-    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  background: #fff;
+  border: 1.5px solid #dad0d0;
+  border-radius: 12px;
+  margin: 5px 15px;
+  padding: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
 }
+.informacaopq img {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+.informacaopq h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     font-size: 20px;
+}
+.informacaopq p {
+     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.titulo {
+    display: flex;
+    margin: 22px;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.mentores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+.comentario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: -1px 0px 35px 0px;
+    padding: 2px 0px 0px 0px;
+}
+.comentario h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     background: #dde0e2;
+    border: 1.5px solid #dad0d0;
+    border-radius: 12px;
+    margin: 5px 15px;
+    padding: 25px;
+}
+.feedback img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    border: 2.9px solid #0e0e0e;
+}
+.feedback h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     font-size: 20px;
+     margin-top: 15px;
+}
+.feedback p {
+    display: flex;
+    font-family:"Open Sans", sans-serif;
+    text-align: center;
+     font-size: 15px;
+     margin: 2px;
+     font-weight: 500;
+}
+.adicionais {
+    background-color: #15366b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marca h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
 
 
 
