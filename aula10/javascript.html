@@ -19,7 +19,12 @@
             // Console não é retorno
 
             // alert('O resultado da soma é: ${resultado} ');
-            alert("O resultado da soma é " + resultado);
+            alert("O resultado da soma é" + resultado);
+            console.log(resultado);
+        }
+        function multiplicar(x, y){
+            let resultado = x * y;
+            alert("o resultado da multiplicação" + resultado);
             console.log(resultado);
         }
     </script>
@@ -33,6 +38,7 @@
     <button onclick="console.log('Escrever no console ')">Clique no console.log</button>
 
     <button onclick="somar(50, 54)">Somar dois números</button>
+    <button onclick="alertmultiplicar(50,54)">Multiplicar dois números</button>
 
     <script>
         // Escrevendo no Console
@@ -42,6 +48,8 @@
         // Chamar função somar()
         // somar (3, 5);
     </script>
+
+    <script src="../aula10/script/script.js"></script>
 
 </body>
 </html>
