@@ -34,7 +34,7 @@ botaohide.addEventListener('click', () =>{
     // }
  
     //if ternário
-    botaohide.textContent=
+    botaohide.textContent =
     botaohide.textContent ==
     "Esconder titulo" ?
     "Mostrar titulo" :
